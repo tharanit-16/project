@@ -1,0 +1,21 @@
+portfolio_id,security_id,action,quantity,price,decision,reason
+POR001,AAPL,Buy,20,150,Approved,Trade passed all compliance checks.
+POR001,AAPL,Buy,60,150,Approved,Trade passed all compliance checks.
+POR001,TCS,Sell,50,310,Approved,Trade passed all compliance checks.
+POR001,TCS,Sell,60,310,Rejected,Insufficient holdings to sell.
+POR001,XYZCORP,Buy,10,50,Rejected,Security is restricted for this portfolio.
+POR001,AAPL,Buy,400,150,Rejected,Insufficient cash for this buy order.
+POR001,AAPL,Buy,-10,150,Rejected,Invalid trade data.
+POR001,INFY,Buy,10,1500,Approved,Trade passed all compliance checks.
+POR002,GOOGL,Buy,,,Rejected,Portfolio not found.
+POR003,BADCO,Buy,,,Rejected,Portfolio not found.
+POR003,TCS,Buy,,,Rejected,Portfolio not found.
+POR003,INFY,Buy,,,Rejected,Portfolio not found.
+POR003,RELIANCE,Sell,,,Rejected,Portfolio not found.
+POR003,RELIANCE,Sell,,,Rejected,Portfolio not found.
+POR004,GOOGL,Buy,,,Rejected,Portfolio not found.
+POR004,AAPL,Buy,,,Rejected,Portfolio not found.
+POR005,PENNY1,Buy,,,Rejected,Portfolio not found.
+POR005,AAPL,Buy,,,Rejected,Portfolio not found.
+POR005,AAPL,Buy,,,Rejected,Portfolio not found.
+POR005,TCS,Buy,,,Rejected,Portfolio not found.
